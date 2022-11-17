@@ -48,3 +48,55 @@ html, body {
     font-weight: bold;
     margin-bottom: 5px;
 }
+
+.profile-container {
+    background-color: #5b8fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 60px 0;
+}
+
+.profile-avatar img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.profile-title {
+    margin: 35px 0 0 0;
+    font-size: 2rem;
+}
+
+.profile-description {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.projetos {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.projetos-title {
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.projetos-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.projetos-item {
+    width: calc(100% - 40px);
+    max-width: 420px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px;
+}
